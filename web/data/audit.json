@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "date": "2026-01-09",
+    "author": "Dr Manuel Corpas",
+    "title": "Diversity Reporting Audit: UK Cancer Genomics 2020-2025",
+    "description": "Systematic audit of ancestry/ethnicity reporting in UK cancer genomics publications"
+  },
+  "researchQuestion": "What proportion of peer-reviewed UK cancer genomics publications (2020-2025) report participant ancestry or ethnicity, and how is diversity information reported when present?",
+  "searchMethodology": {
+    "database": "PubMed/MEDLINE",
+    "dateExecuted": "2026-01-09",
+    "dateRange": "2020-01-01 to 2025-12-31",
+    "searchString": "(\"United Kingdom\"[Affiliation] OR \"UK\"[Affiliation] OR \"England\"[Affiliation] OR \"Scotland\"[Affiliation] OR \"Wales\"[Affiliation]) AND (cancer[Title/Abstract] OR neoplasm[Title/Abstract] OR tumour[Title/Abstract] OR tumor[Title/Abstract]) AND (\"whole genome\"[Title/Abstract] OR \"whole exome\"[Title/Abstract] OR WGS[Title/Abstract] OR WES[Title/Abstract] OR GWAS[Title/Abstract] OR \"genome-wide\"[Title/Abstract] OR genomic[Title/Abstract]) AND (\"2020\"[Date - Publication] : \"2025\"[Date - Publication]) AND Journal Article[pt] AND English[lang]",
+    "filters": {
+      "publicationType": "Journal Article",
+      "language": "English",
+      "humansMeSH": "Excluded (delayed indexing for recent papers)"
+    },
+    "totalResults": 3427,
+    "goldStandardCapture": {
+      "total": 3,
+      "captured": 3,
+      "rate": 100
+    },
+    "validationNote": "Humans[MeSH] filter excluded due to delayed indexing of recent papers (PMID 40513586 lacked MeSH indexing)"
+  },
+  "goldStandardPapers": [
+    {
+      "pmid": "38200255",
+      "title": "Insights for precision oncology from the integration of genomic and clinical data of 13,880 tumors from the 100,000 Genomes Cancer Programme",
+      "journal": "Nature Medicine",
+      "year": 2024,
+      "authors": "Sosinsky A, Ambrose J, Cross W, et al.",
+      "doi": "10.1038/s41591-023-02682-0",
+      "cancerType": "pan-cancer",
+      "studyType": "WGS",
+      "sampleSize": 13880,
+      "dataSource": "Genomics_England",
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "ancestry",
+        "categoriesReported": "European, African, South Asian, East Asian, Mixed",
+        "ascertainmentMethod": "genetic_inference",
+        "fullBreakdown": "yes_counts",
+        "europeanPct": 87.2,
+        "nonEuropeanPct": 12.8,
+        "diversityAsLimitation": "no"
+      },
+      "notes": "Core Genomics England cancer programme paper. Full ancestry breakdown by genetic inference."
+    },
+    {
+      "pmid": "40513586",
+      "title": "Improved recruitment equity in a UK cancer genomic testing programme",
+      "journal": "Lancet Oncology",
+      "year": 2025,
+      "authors": "Evans DG, Woodward ER, Crosbie EJ",
+      "doi": "10.1016/S1470-2045(25)00223-2",
+      "cancerType": "pan-cancer",
+      "studyType": "other",
+      "sampleSize": null,
+      "dataSource": "Genomics_England",
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "ethnicity",
+        "categoriesReported": "Various ethnic groups",
+        "ascertainmentMethod": "self_report",
+        "fullBreakdown": "mentioned_only",
+        "europeanPct": null,
+        "nonEuropeanPct": null,
+        "diversityAsLimitation": "no"
+      },
+      "notes": "Commentary on equity improvements. Focus on recruitment strategies for diverse populations."
+    },
+    {
+      "pmid": "40513587",
+      "title": "Equity in cancer genomics in the UK: a cross-sectional analysis of a national cancer cohort",
+      "journal": "Lancet Oncology",
+      "year": 2025,
+      "authors": "Nguyen T, Tallman S, Cho Y, Sosinsky A, et al.",
+      "doi": "10.1016/S1470-2045(25)00199-8",
+      "cancerType": "pan-cancer",
+      "studyType": "WGS",
+      "sampleSize": 14775,
+      "dataSource": "Genomics_England",
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "ancestry",
+        "categoriesReported": "European, South Asian, African, East Asian, Mixed",
+        "ascertainmentMethod": "genetic_inference",
+        "fullBreakdown": "yes_counts",
+        "europeanPct": 87.2,
+        "nonEuropeanPct": 12.8,
+        "diversityAsLimitation": "yes"
+      },
+      "keyFindings": [
+        "4.6% of South Asian patients had potentially pathogenic variants vs 2.2% European",
+        "5.3% of African ancestry patients had potentially pathogenic variants",
+        "Fewer actionable tumour mutations identified in non-European ancestry patients",
+        "Black women 2.7x more likely to be recruited for breast cancer than expected"
+      ],
+      "notes": "Core equity paper. Directly addresses diversity reporting and outcomes disparities."
+    }
+  ],
+  "auditResults": {
+    "status": "in_progress",
+    "extractionProgress": {
+      "total": 300,
+      "completed": 3,
+      "percentage": 1
+    },
+    "preliminaryFindings": {
+      "reportingRate": {
+        "value": null,
+        "ci95Lower": null,
+        "ci95Upper": null,
+        "note": "To be calculated after full extraction"
+      },
+      "fullBreakdownRate": {
+        "value": null,
+        "note": "To be calculated after full extraction"
+      }
+    },
+    "byYear": [
+      {"year": 2020, "total": null, "reporting": null, "rate": null},
+      {"year": 2021, "total": null, "reporting": null, "rate": null},
+      {"year": 2022, "total": null, "reporting": null, "rate": null},
+      {"year": 2023, "total": null, "reporting": null, "rate": null},
+      {"year": 2024, "total": null, "reporting": null, "rate": null},
+      {"year": 2025, "total": null, "reporting": null, "rate": null}
+    ],
+    "terminologyUsed": {
+      "ancestry": null,
+      "ethnicity": null,
+      "race": null,
+      "population": null,
+      "mixed": null,
+      "notApplicable": null
+    },
+    "ascertainmentMethods": {
+      "selfReport": null,
+      "geneticInference": null,
+      "ehr": null,
+      "notStated": null
+    },
+    "byCancerType": [],
+    "byDataSource": []
+  },
+  "hypotheses": [
+    {
+      "id": "h1",
+      "statement": "Less than 50% of publications report participant ancestry/ethnicity",
+      "target": 50,
+      "operator": "less_than",
+      "metric": "reportingRate",
+      "status": "pending"
+    },
+    {
+      "id": "h2",
+      "statement": "Less than 25% provide full quantitative breakdown",
+      "target": 25,
+      "operator": "less_than",
+      "metric": "fullBreakdownRate",
+      "status": "pending"
+    },
+    {
+      "id": "h3",
+      "statement": "Terminology will be inconsistent across publications",
+      "status": "pending"
+    },
+    {
+      "id": "h4",
+      "statement": "No significant improvement in reporting rates 2020-2025",
+      "status": "pending"
+    }
+  ],
+  "targets": {
+    "genomicsEnglandSummit2026": {
+      "deadline": "TBD",
+      "deliverable": "Abstract submission",
+      "status": "in_progress"
+    },
+    "publication": {
+      "target": "Lancet Oncology correspondence or Nature Genetics comment",
+      "status": "planned"
+    }
+  },
+  "sources": [
+    {
+      "label": "PMID 38200255 - 100K Genomes Cancer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38200255/"
+    },
+    {
+      "label": "PMID 40513586 - Recruitment Equity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40513586/"
+    },
+    {
+      "label": "PMID 40513587 - Equity in Cancer Genomics UK",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40513587/"
+    }
+  ]
+}

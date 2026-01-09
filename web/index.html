@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diversity Reporting Audit | UK Cancer Genomics 2020-2025</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Diversity Reporting Audit</h1>
+            <p class="subtitle">UK Cancer Genomics Publications 2020-2025</p>
+            <div class="header-meta">
+                <span class="author">Dr Manuel Corpas</span>
+                <span class="separator">|</span>
+                <span class="affiliation">DSxHE Data Diversity Theme</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Research Question -->
+        <section class="research-question">
+            <div class="question-icon">?</div>
+            <p id="research-question">Loading...</p>
+        </section>
+
+        <!-- Summary Cards -->
+        <section class="summary-cards">
+            <div class="card">
+                <div class="card-icon">&#128218;</div>
+                <div class="card-value" id="total-publications">3,427</div>
+                <div class="card-label">Publications Found</div>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#9989;</div>
+                <div class="card-value" id="gold-standard-rate">100%</div>
+                <div class="card-label">Gold Standard Capture</div>
+            </div>
+            <div class="card highlight">
+                <div class="card-icon">&#128202;</div>
+                <div class="card-value" id="reporting-rate">--</div>
+                <div class="card-label">Report Diversity</div>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#128203;</div>
+                <div class="card-value" id="extraction-progress">1%</div>
+                <div class="card-label">Extraction Complete</div>
+            </div>
+        </section>
+
+        <!-- Search Methodology -->
+        <section class="methodology-section">
+            <h2>Search Methodology</h2>
+            <div class="methodology-grid">
+                <div class="method-card">
+                    <h3>Database</h3>
+                    <p id="search-database">PubMed/MEDLINE</p>
+                </div>
+                <div class="method-card">
+                    <h3>Date Range</h3>
+                    <p id="search-date-range">2020-01-01 to 2025-12-31</p>
+                </div>
+                <div class="method-card">
+                    <h3>Search Executed</h3>
+                    <p id="search-date-executed">2026-01-09</p>
+                </div>
+                <div class="method-card">
+                    <h3>Total Results</h3>
+                    <p id="search-total-results">3,427</p>
+                </div>
+            </div>
+
+            <div class="search-string-container">
+                <h3>Validated Search String</h3>
+                <pre id="search-string" class="search-string">Loading...</pre>
+                <button class="copy-btn" onclick="copySearchString()">Copy</button>
+            </div>
+
+            <div class="validation-note">
+                <strong>Validation Note:</strong> <span id="validation-note">Loading...</span>
+            </div>
+        </section>
+
+        <!-- Gold Standard Papers -->
+        <section class="gold-standard-section">
+            <h2>Gold Standard Validation</h2>
+            <p class="section-description">Papers that must be captured by any valid search strategy</p>
+
+            <div class="gold-standard-grid" id="gold-standard-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Hypotheses -->
+        <section class="hypotheses-section">
+            <h2>Study Hypotheses</h2>
+            <div class="hypotheses-grid" id="hypotheses-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Results Preview (Placeholder) -->
+        <section class="results-section">
+            <h2>Audit Results</h2>
+            <div class="status-banner in-progress">
+                <span class="status-icon">&#9881;</span>
+                <span>Data extraction in progress. Results will appear here once complete.</span>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h3>Reporting Rate by Year</h3>
+                    <canvas id="chart-by-year"></canvas>
+                    <p class="chart-placeholder">Data pending extraction</p>
+                </div>
+                <div class="chart-container">
+                    <h3>Terminology Used</h3>
+                    <canvas id="chart-terminology"></canvas>
+                    <p class="chart-placeholder">Data pending extraction</p>
+                </div>
+            </div>
+
+            <div class="results-table-container">
+                <h3>Results by Cancer Type</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Cancer Type</th>
+                            <th>Publications</th>
+                            <th>Reporting Rate</th>
+                            <th>Full Breakdown</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cancer-type-tbody">
+                        <tr class="placeholder-row">
+                            <td colspan="4">Data pending extraction</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Extracted Papers Detail -->
+        <section class="extracted-section">
+            <h2>Extracted Papers</h2>
+            <p class="section-description">Detailed analysis of gold standard papers</p>
+
+            <table class="data-table" id="extracted-table">
+                <thead>
+                    <tr>
+                        <th>PMID</th>
+                        <th>Year</th>
+                        <th>Journal</th>
+                        <th>Cancer Type</th>
+                        <th>N</th>
+                        <th>Diversity Reported</th>
+                        <th>Term Used</th>
+                        <th>Full Breakdown</th>
+                    </tr>
+                </thead>
+                <tbody id="extracted-tbody">
+                    <!-- Populated by JavaScript -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Key Findings from Gold Standards -->
+        <section class="findings-section">
+            <h2>Key Findings from Gold Standard Papers</h2>
+            <div class="findings-grid" id="findings-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Sources -->
+        <section class="sources-section">
+            <h2>Data Sources</h2>
+            <ul class="sources-list" id="sources-list">
+                <!-- Populated by JavaScript -->
+            </ul>
+        </section>
+
+        <!-- Citation -->
+        <section class="citation-section">
+            <h2>Cite This Tool</h2>
+            <div class="citation-box">
+                <p>Corpas M. (2026). Diversity Reporting Audit: UK Cancer Genomics Publications 2020-2025. DSxHE Data Diversity Theme / Cancer Research UK.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>DSxHE Data Diversity Theme | Cancer Research UK | Last updated: <span id="last-updated">2026-01-09</span></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

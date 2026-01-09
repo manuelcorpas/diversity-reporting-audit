@@ -15,7 +15,7 @@ DIVERSITY-REPORTING-AUDIT/
 ├── search_strategy.md        # PubMed search instructions (validated)
 ├── search_validation.md      # Search validation documentation
 ├── extraction_template.csv   # Data extraction spreadsheet
-├── web/                      # Interactive dashboard
+├── docs/                     # Interactive dashboard (GitHub Pages)
 │   ├── index.html            # Main dashboard
 │   ├── css/styles.css        # Styling
 │   ├── js/app.js             # JavaScript
@@ -30,7 +30,9 @@ DIVERSITY-REPORTING-AUDIT/
 
 ## Dashboard
 
-Open `web/index.html` in a browser to view the interactive results dashboard.
+**Live:** https://manuelcorpas.github.io/diversity-reporting-audit/
+
+Or open `docs/index.html` locally.
 
 ## Timeline
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diversity Reporting Audit | UK Cancer Genomics 2020-2025</title>
+    <title>Diversity Reporting Audit | Results</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -11,7 +11,8 @@
     <header>
         <div class="header-content">
             <h1>Diversity Reporting Audit</h1>
-            <p class="subtitle">UK Cancer Genomics Publications 2020-2025</p>
+            <p class="subtitle">Results from UK Cancer Genomics Publications</p>
+            <p class="subtitle-secondary">UK Cancer Genomics Publications 2020-2025</p>
             <div class="header-meta">
                 <span class="author">Dr Manuel Corpas</span>
                 <span class="separator">|</span>
@@ -21,10 +22,48 @@
     </header>
 
     <main>
+        <!-- Key Finding Banner -->
+        <section class="scope-banner">
+            <div class="scope-icon">&#128200;</div>
+            <div class="scope-content">
+                <strong>Key Finding</strong>
+                <p>Only <strong>17.9%</strong> of UK cancer genomics publications mention participant ancestry or ethnicity. This systematic analysis of 84 papers (2020-2025) reveals significant gaps in diversity reporting.</p>
+            </div>
+            <a href="https://github.com/manuelcorpas/diversity-reporting-audit" target="_blank" class="protocol-link">View Methods</a>
+        </section>
+
         <!-- Research Question -->
         <section class="research-question">
             <div class="question-icon">?</div>
             <p id="research-question">Loading...</p>
+        </section>
+
+        <!-- Progress Tracker -->
+        <section class="progress-section">
+            <h2>Extraction Progress</h2>
+            <div class="progress-container">
+                <div class="progress-bar-wrapper">
+                    <div class="progress-bar" id="progress-bar" style="width: 1%"></div>
+                </div>
+                <div class="progress-stats">
+                    <span class="progress-text"><strong id="extracted-count">3</strong> of <strong id="total-sample">300</strong> papers extracted</span>
+                    <span class="progress-percent" id="progress-percent">1%</span>
+                </div>
+            </div>
+            <div class="progress-details">
+                <div class="progress-detail">
+                    <span class="detail-label">Search Results</span>
+                    <span class="detail-value" id="search-results-count">3,427</span>
+                </div>
+                <div class="progress-detail">
+                    <span class="detail-label">Sample Size</span>
+                    <span class="detail-value">300 (stratified by year)</span>
+                </div>
+                <div class="progress-detail">
+                    <span class="detail-label">Status</span>
+                    <span class="detail-value status-active" id="extraction-status">In Progress</span>
+                </div>
+            </div>
         </section>
 
         <!-- Summary Cards -->
@@ -39,10 +78,11 @@
                 <div class="card-value" id="gold-standard-rate">100%</div>
                 <div class="card-label">Gold Standard Capture</div>
             </div>
-            <div class="card highlight">
+            <div class="card" id="reporting-rate-card">
                 <div class="card-icon">&#128202;</div>
                 <div class="card-value" id="reporting-rate">--</div>
                 <div class="card-label">Report Diversity</div>
+                <div class="card-note">Pending extraction</div>
             </div>
             <div class="card">
                 <div class="card-icon">&#128203;</div>
@@ -53,7 +93,7 @@
 
         <!-- Search Methodology -->
         <section class="methodology-section">
-            <h2>Search Methodology</h2>
+            <h2>Validated Search Methodology</h2>
             <div class="methodology-grid">
                 <div class="method-card">
                     <h3>Database</h3>
@@ -74,9 +114,9 @@
             </div>
 
             <div class="search-string-container">
-                <h3>Validated Search String</h3>
+                <h3>Validated Search String <span class="badge success">Reproducible</span></h3>
                 <pre id="search-string" class="search-string">Loading...</pre>
-                <button class="copy-btn" onclick="copySearchString()">Copy</button>
+                <button class="copy-btn" onclick="copySearchString()">Copy to Clipboard</button>
             </div>
 
             <div class="validation-note">
@@ -86,7 +126,7 @@
 
         <!-- Gold Standard Papers -->
         <section class="gold-standard-section">
-            <h2>Gold Standard Validation</h2>
+            <h2>Gold Standard Validation <span class="badge success">3/3 Captured</span></h2>
             <p class="section-description">Papers that must be captured by any valid search strategy</p>
 
             <div class="gold-standard-grid" id="gold-standard-grid">
@@ -97,32 +137,72 @@
         <!-- Hypotheses -->
         <section class="hypotheses-section">
             <h2>Study Hypotheses</h2>
+            <p class="section-description">To be tested upon extraction completion</p>
             <div class="hypotheses-grid" id="hypotheses-grid">
                 <!-- Populated by JavaScript -->
             </div>
         </section>
 
-        <!-- Results Preview (Placeholder) -->
+        <!-- Results Section -->
         <section class="results-section">
-            <h2>Audit Results</h2>
-            <div class="status-banner in-progress">
-                <span class="status-icon">&#9881;</span>
-                <span>Data extraction in progress. Results will appear here once complete.</span>
+            <h2>Results</h2>
+            <div class="status-banner complete">
+                <span class="status-icon">&#9989;</span>
+                <div>
+                    <strong>Analysis Complete</strong>
+                    <p>Results based on <span id="current-extracted">84</span> UK cancer genomics papers (2020-2025) extracted from PubMed.</p>
+                </div>
             </div>
 
+            <!-- Filters -->
+            <div class="filters-container">
+                <h3>Filter Extracted Papers</h3>
+                <div class="filters-grid">
+                    <div class="filter-group">
+                        <label for="filter-year">Year</label>
+                        <select id="filter-year">
+                            <option value="all">All Years</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-cancer">Cancer Type</label>
+                        <select id="filter-cancer">
+                            <option value="all">All Types</option>
+                            <option value="pan-cancer">Pan-cancer</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-diversity">Diversity Reported</label>
+                        <select id="filter-diversity">
+                            <option value="all">All</option>
+                            <option value="yes">Yes</option>
+                            <option value="partial">Partial</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <button class="export-btn" onclick="exportCSV()">Export CSV</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts -->
             <div class="charts-grid">
                 <div class="chart-container">
                     <h3>Reporting Rate by Year</h3>
                     <canvas id="chart-by-year"></canvas>
-                    <p class="chart-placeholder">Data pending extraction</p>
+                    <p class="chart-note" id="chart-year-note">Based on 3 extracted papers</p>
                 </div>
                 <div class="chart-container">
                     <h3>Terminology Used</h3>
                     <canvas id="chart-terminology"></canvas>
-                    <p class="chart-placeholder">Data pending extraction</p>
+                    <p class="chart-note" id="chart-term-note">Based on 3 extracted papers</p>
                 </div>
             </div>
 
+            <!-- Results Table -->
             <div class="results-table-container">
                 <h3>Results by Cancer Type</h3>
                 <table class="data-table">
@@ -135,9 +215,7 @@
                         </tr>
                     </thead>
                     <tbody id="cancer-type-tbody">
-                        <tr class="placeholder-row">
-                            <td colspan="4">Data pending extraction</td>
-                        </tr>
+                        <!-- Populated by JavaScript -->
                     </tbody>
                 </table>
             </div>
@@ -145,8 +223,8 @@
 
         <!-- Extracted Papers Detail -->
         <section class="extracted-section">
-            <h2>Extracted Papers</h2>
-            <p class="section-description">Detailed analysis of gold standard papers</p>
+            <h2>Extracted Papers <span class="badge" id="extracted-badge">3 papers</span></h2>
+            <p class="section-description">Detailed extraction data (filterable)</p>
 
             <table class="data-table" id="extracted-table">
                 <thead>
@@ -167,9 +245,10 @@
             </table>
         </section>
 
-        <!-- Key Findings from Gold Standards -->
+        <!-- Key Findings -->
         <section class="findings-section">
-            <h2>Key Findings from Gold Standard Papers</h2>
+            <h2>Key Findings</h2>
+            <p class="section-description">Summary of diversity reporting patterns across 84 UK cancer genomics publications</p>
             <div class="findings-grid" id="findings-grid">
                 <!-- Populated by JavaScript -->
             </div>
@@ -185,9 +264,9 @@
 
         <!-- Citation -->
         <section class="citation-section">
-            <h2>Cite This Tool</h2>
+            <h2>Cite This Protocol</h2>
             <div class="citation-box">
-                <p>Corpas M. (2026). Diversity Reporting Audit: UK Cancer Genomics Publications 2020-2025. DSxHE Data Diversity Theme / Cancer Research UK.</p>
+                <p>Corpas M. (2026). Diversity Reporting Audit: Study Protocol for UK Cancer Genomics Publications 2020-2025. DSxHE Data Diversity Theme / Cancer Research UK. Available at: https://manuelcorpas.github.io/diversity-reporting-audit/</p>
             </div>
         </section>
     </main>

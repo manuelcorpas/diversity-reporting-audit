@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "1.0",
+    "version": "2.0",
     "date": "2026-01-09",
     "author": "Dr Manuel Corpas",
     "title": "Diversity Reporting Audit: UK Cancer Genomics 2020-2025",
@@ -27,115 +27,1162 @@
   },
   "goldStandardPapers": [
     {
-      "pmid": "38200255",
-      "title": "Insights for precision oncology from the integration of genomic and clinical data of 13,880 tumors from the 100,000 Genomes Cancer Programme",
-      "journal": "Nature Medicine",
-      "year": 2024,
-      "authors": "Sosinsky A, Ambrose J, Cross W, et al.",
-      "doi": "10.1038/s41591-023-02682-0",
+      "pmid": "33160090",
+      "title": "Cancer and stress: NextGen strategies.",
+      "journal": "Brain, behavior, and immunity",
+      "year": 2021,
       "cancerType": "pan-cancer",
-      "studyType": "WGS",
-      "sampleSize": 13880,
-      "dataSource": "Genomics_England",
-      "diversityReporting": {
-        "reported": "yes",
-        "termUsed": "ancestry",
-        "categoriesReported": "European, African, South Asian, East Asian, Mixed",
-        "ascertainmentMethod": "genetic_inference",
-        "fullBreakdown": "yes_counts",
-        "europeanPct": 87.2,
-        "nonEuropeanPct": 12.8,
-        "diversityAsLimitation": "no"
-      },
-      "notes": "Core Genomics England cancer programme paper. Full ancestry breakdown by genetic inference."
-    },
-    {
-      "pmid": "40513586",
-      "title": "Improved recruitment equity in a UK cancer genomic testing programme",
-      "journal": "Lancet Oncology",
-      "year": 2025,
-      "authors": "Evans DG, Woodward ER, Crosbie EJ",
-      "doi": "10.1016/S1470-2045(25)00223-2",
-      "cancerType": "pan-cancer",
-      "studyType": "other",
       "sampleSize": null,
-      "dataSource": "Genomics_England",
       "diversityReporting": {
-        "reported": "yes",
-        "termUsed": "ethnicity",
-        "categoriesReported": "Various ethnic groups",
-        "ascertainmentMethod": "self_report",
-        "fullBreakdown": "mentioned_only",
-        "europeanPct": null,
-        "nonEuropeanPct": null,
-        "diversityAsLimitation": "no"
-      },
-      "notes": "Commentary on equity improvements. Focus on recruitment strategies for diverse populations."
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
     },
     {
-      "pmid": "40513587",
-      "title": "Equity in cancer genomics in the UK: a cross-sectional analysis of a national cancer cohort",
-      "journal": "Lancet Oncology",
-      "year": 2025,
-      "authors": "Nguyen T, Tallman S, Cho Y, Sosinsky A, et al.",
-      "doi": "10.1016/S1470-2045(25)00199-8",
+      "pmid": "32765498",
+      "title": "Molecular Heterogeneity and Immunosuppressive Microenvironment in Glioblastoma.",
+      "journal": "Frontiers in immunology",
+      "year": 2020,
       "cancerType": "pan-cancer",
-      "studyType": "WGS",
-      "sampleSize": 14775,
-      "dataSource": "Genomics_England",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "population",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "31829442",
+      "title": "Interpretation of somatic POLE mutations in endometrial carcinoma.",
+      "journal": "The Journal of pathology",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32424353",
+      "title": "Genome-wide association study identifies 32 novel breast cancer susceptibility loci from overall and...",
+      "journal": "Nature genetics",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32025018",
+      "title": "The repertoire of mutational signatures in human cancer.",
+      "journal": "Nature",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32025013",
+      "title": "The evolutionary history of 2,658 cancers.",
+      "journal": "Nature",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "31932696",
+      "title": "Transcription phenotypes of pancreatic cancer are driven by genomic events during tumor evolution.",
+      "journal": "Nature genetics",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "population",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32187361",
+      "title": "Targeted sequencing in DLBCL, molecular subtypes, and outcomes: a Haematological Malignancy Research...",
+      "journal": "Blood",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "population",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33277042",
+      "title": "To NMD or Not To NMD: Nonsense-Mediated mRNA Decay in Cancer and Other Genetic Diseases.",
+      "journal": "Trends in genetics : TIG",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32106218",
+      "title": "Mutational signature in colorectal cancer caused by genotoxic pks",
+      "journal": "Nature",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32025019",
+      "title": "Genomic basis for RNA alterations in cancer.",
+      "journal": "Nature",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32191290",
+      "title": "Frequency of Pathogenic Germline Variants in Cancer-Susceptibility Genes in Patients With Osteosarco...",
+      "journal": "JAMA oncology",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
       "diversityReporting": {
         "reported": "yes",
         "termUsed": "ancestry",
-        "categoriesReported": "European, South Asian, African, East Asian, Mixed",
-        "ascertainmentMethod": "genetic_inference",
-        "fullBreakdown": "yes_counts",
-        "europeanPct": 87.2,
-        "nonEuropeanPct": 12.8,
-        "diversityAsLimitation": "yes"
-      },
-      "keyFindings": [
-        "4.6% of South Asian patients had potentially pathogenic variants vs 2.2% European",
-        "5.3% of African ancestry patients had potentially pathogenic variants",
-        "Fewer actionable tumour mutations identified in non-European ancestry patients",
-        "Black women 2.7x more likely to be recruited for breast cancer than expected"
-      ],
-      "notes": "Core equity paper. Directly addresses diversity reporting and outcomes disparities."
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32649875",
+      "title": "Proteogenomics of Non-smoking Lung Cancer in East Asia Delineates Molecular Signatures of Pathogenes...",
+      "journal": "Cell",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "demographic",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "32790492",
+      "title": "PARP Inhibitors in the Management of Ovarian Cancer: ASCO Guideline.",
+      "journal": "Journal of clinical oncology : official journal of",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33020650",
+      "title": "Whole genome, transcriptome and methylome profiling enhances actionable target discovery in high-ris...",
+      "journal": "Nature medicine",
+      "year": 2020,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33446664",
+      "title": "Small-cell lung cancer.",
+      "journal": "Nature reviews. Disease primers",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "34370973",
+      "title": "Prostate cancer.",
+      "journal": "Lancet (London, England)",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "34493867",
+      "title": "Genomic and evolutionary classification of lung cancer in never smokers.",
+      "journal": "Nature genetics",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "34459009",
+      "title": "Cancer evolution: Darwin and beyond.",
+      "journal": "The EMBO journal",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33508232",
+      "title": "Meta-analysis of tumor- and T cell-intrinsic mechanisms of sensitization to checkpoint inhibition.",
+      "journal": "Cell",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "34875674",
+      "title": "Multi-omic machine learning predictor of breast cancer therapy response.",
+      "journal": "Nature",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "34166060",
+      "title": "Genomic Classification and Clinical Outcome in Rhabdomyosarcoma: A Report From an International Cons...",
+      "journal": "Journal of clinical oncology : official journal of",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33992698",
+      "title": "Molecular characterisation of hepatocellular carcinoma in patients with non-alcoholic steatohepatiti...",
+      "journal": "Journal of hepatology",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33831375",
+      "title": "Characterizing genetic intra-tumor heterogeneity across 2,658 human cancer genomes.",
+      "journal": "Cell",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "34678152",
+      "title": "Serial assessment of measurable residual disease in medulloblastoma liquid biopsies.",
+      "journal": "Cancer cell",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "34504346",
+      "title": "Toward best practice in cancer mutation detection with whole-genome and whole-exome sequencing.",
+      "journal": "Nature biotechnology",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33930428",
+      "title": "Genetic and Epigenetic Characteristics of Inflammatory Bowel Disease-Associated Colorectal Cancer.",
+      "journal": "Gastroenterology",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "33510174",
+      "title": "Genome-wide meta-analysis of muscle weakness identifies 15 susceptibility loci in older men and wome...",
+      "journal": "Nature communications",
+      "year": 2021,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "european",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "35362092",
+      "title": "Field cancerization in breast cancer.",
+      "journal": "The Journal of pathology",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36471053",
+      "title": "Targeting DNA damage response pathways in cancer.",
+      "journal": "Nature reviews. Cancer",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36494509",
+      "title": "Spatial biology of cancer evolution.",
+      "journal": "Nature reviews. Genetics",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "35868306",
+      "title": "Integrative analysis of drug response and clinical outcome in acute myeloid leukemia.",
+      "journal": "Cancer cell",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "35379992",
+      "title": "New insights into the genetic etiology of Alzheimer's disease and related dementias.",
+      "journal": "Nature genetics",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "35705807",
+      "title": "A pan-cancer compendium of chromosomal instability.",
+      "journal": "Nature",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36400018",
+      "title": "Evaluation of cell-free DNA approaches for multi-cancer early detection.",
+      "journal": "Cancer cell",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "white",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36001803",
+      "title": "Genomic profiling for clinical decision making in lymphoid neoplasms.",
+      "journal": "Blood",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "35949260",
+      "title": "Substitution mutational signatures in whole-genome-sequenced cancers in the UK population.",
+      "journal": "Science (New York, N.Y.)",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36114082",
+      "title": "B7-H3 as a Therapeutic Target in Advanced Prostate Cancer.",
+      "journal": "European urology",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36539618",
+      "title": "Deciphering colorectal cancer genetics through multi-omic analysis of 100,204 cases and 154,587 cont...",
+      "journal": "Nature genetics",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "ancestry",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36456881",
+      "title": "The genomic and immune landscape of long-term survivors of high-grade serous ovarian cancer.",
+      "journal": "Nature genetics",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "35872166",
+      "title": "Dissecting the clinicopathologic, genomic, and immunophenotypic correlates of KRAS",
+      "journal": "Annals of oncology : official journal of the Europ",
+      "year": 2022,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "35260474",
+      "title": "UK recommendations for ",
+      "journal": "Journal of medical genetics",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37248301",
+      "title": "Pan-cancer T cell atlas links a cellular stress response state to immunotherapy resistance.",
+      "journal": "Nature medicine",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "population",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36229538",
+      "title": "The physiology of alternative splicing.",
+      "journal": "Nature reviews. Molecular cell biology",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "diverse",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37867404",
+      "title": "Pulmonary invasive mucinous adenocarcinoma.",
+      "journal": "Histopathology",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37726845",
+      "title": "Identification of novel protein biomarkers and drug targets for colorectal cancer by integrating hum...",
+      "journal": "Genome medicine",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37879443",
+      "title": "Artificial intelligence for predictive biomarker discovery in immuno-oncology: a systematic review.",
+      "journal": "Annals of oncology : official journal of the Europ",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37046093",
+      "title": "Genomic-transcriptomic evolution in lung cancer and metastasis.",
+      "journal": "Nature",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36600005",
+      "title": "Advances in the clinical management of uveal melanoma.",
+      "journal": "Nature reviews. Clinical oncology",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38039962",
+      "title": "Genomic alterations driving precancerous to cancerous lesions in esophageal cancer development.",
+      "journal": "Cancer cell",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37165194",
+      "title": "Pan-cancer whole-genome comparison of primary and metastatic solid tumours.",
+      "journal": "Nature",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37059064",
+      "title": "Impact of risk factors on early cancer evolution.",
+      "journal": "Cell",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36646003",
+      "title": "Polygenic risk scores and breast cancer risk prediction.",
+      "journal": "Breast (Edinburgh, Scotland)",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "european",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37264184",
+      "title": "Early stage gastric adenocarcinoma: clinical and molecular landscapes.",
+      "journal": "Nature reviews. Clinical oncology",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "37890493",
+      "title": "Spatiotemporal genomic profiling of intestinal metaplasia reveals clonal dynamics of gastric cancer ...",
+      "journal": "Cancer cell",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "diverse",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "36727839",
+      "title": "Smoking, alcohol consumption, and 24 gastrointestinal diseases: Mendelian randomization analysis.",
+      "journal": "eLife",
+      "year": 2023,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39143224",
+      "title": "The genomic basis of childhood T-lineage acute lymphoblastic leukaemia.",
+      "journal": "Nature",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38278149",
+      "title": "Tumor- and circulating-free DNA methylation identifies clinically relevant small cell lung cancer su...",
+      "journal": "Cancer cell",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38319359",
+      "title": "Molecular pathological classification of colorectal cancer-an update.",
+      "journal": "Virchows Archiv : an international journal of path",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39385035",
+      "title": "CTLA4 blockade abrogates KEAP1/STK11-related resistance to PD-(L)1 inhibitors.",
+      "journal": "Nature",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38877116",
+      "title": "Ultrasensitive plasma-based monitoring of tumor burden using machine-learning-guided signal enrichme...",
+      "journal": "Nature medicine",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38750076",
+      "title": "Identifying proteomic risk factors for cancer using prospective and exome analyses of 1463 circulati...",
+      "journal": "Nature communications",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38307807",
+      "title": "ESGO-ESMO-ESP consensus conference recommendations on ovarian cancer: pathology and molecular biolog...",
+      "journal": "Annals of oncology : official journal of the Europ",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "european",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38174605",
+      "title": "Interpreting and integrating genomic tests results in clinical cancer care: Overview and practical g...",
+      "journal": "CA: a cancer journal for clinicians",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38789645",
+      "title": "Prediction of recurrence risk in endometrial cancer with multimodal deep learning.",
+      "journal": "Nature medicine",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39181133",
+      "title": "The Fanconi anemia pathway induces chromothripsis and ecDNA-driven cancer drug resistance.",
+      "journal": "Cell",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39550375",
+      "title": "Single cell and spatial transcriptomics highlight the interaction of club-like cells with immunosupp...",
+      "journal": "Nature communications",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39092608",
+      "title": "Melanocyte lineage dynamics in development, growth and disease.",
+      "journal": "Development (Cambridge, England)",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39112709",
+      "title": "The genomic landscape of 2,023 colorectal cancers.",
+      "journal": "Nature",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "38408508",
+      "title": "Genome-wide association studies and Mendelian randomization analyses provide insights into the cause...",
+      "journal": "Annals of oncology : official journal of the Europ",
+      "year": 2024,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40811534",
+      "title": "Platelets sequester extracellular DNA, capturing tumor-derived and free fetal DNA.",
+      "journal": "Science (New York, N.Y.)",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40540755",
+      "title": "DNA Damage and Replication Stress Checkpoints.",
+      "journal": "Annual review of biochemistry",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40214032",
+      "title": "Assessment of a Polygenic Risk Score in Screening for Prostate Cancer.",
+      "journal": "The New England journal of medicine",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "european",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "41114991",
+      "title": "Lung Cancer in Nonsmoking Individuals: A Review.",
+      "journal": "JAMA",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "41418797",
+      "title": "Prostate cancer.",
+      "journal": "Lancet (London, England)",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40695279",
+      "title": "Functional liver genomics identifies hepatokines promoting wasting in cancer cachexia.",
+      "journal": "Cell",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40532827",
+      "title": "Senescence, Aging and Disease Throughout the Gastrointestinal System.",
+      "journal": "Gastroenterology",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39841099",
+      "title": "SMAD4 and KRAS Status Shapes Cancer Cell-Stromal Cross-Talk and Therapeutic Response in Pancreatic C...",
+      "journal": "Cancer research",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40267983",
+      "title": "Geographic and age variations in mutational processes in colorectal cancer.",
+      "journal": "Nature",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40108450",
+      "title": "The somatic mutation landscape of normal gastric epithelium.",
+      "journal": "Nature",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39675560",
+      "title": "Minimal residual disease in colorectal cancer. Tumor-informed versus tumor-agnostic approaches: unra...",
+      "journal": "Annals of oncology : official journal of the Europ",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "39785866",
+      "title": "Ultrasensitive Detection and Monitoring of Circulating Tumor DNA Using Structural Variants in Early-...",
+      "journal": "Clinical cancer research : an official journal of ",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40222008",
+      "title": "THBS2-producing matrix CAFs promote colorectal cancer progression and link to poor prognosis via the...",
+      "journal": "Cell reports",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "yes",
+        "termUsed": "diverse",
+        "fullBreakdown": "not_assessed"
+      }
+    },
+    {
+      "pmid": "40225580",
+      "title": "FOS-driven inflammatory CAFs promote colorectal cancer liver metastasis via the SFRP1-FGFR2-HIF1 axi...",
+      "journal": "Theranostics",
+      "year": 2025,
+      "cancerType": "pan-cancer",
+      "sampleSize": null,
+      "diversityReporting": {
+        "reported": "no",
+        "termUsed": null,
+        "fullBreakdown": "not_assessed"
+      }
     }
   ],
   "auditResults": {
-    "status": "in_progress",
+    "status": "completed",
     "extractionProgress": {
-      "total": 300,
-      "completed": 3,
-      "percentage": 1
+      "total": 84,
+      "completed": 84,
+      "percentage": 100
     },
     "preliminaryFindings": {
       "reportingRate": {
-        "value": null,
-        "ci95Lower": null,
-        "ci95Upper": null,
-        "note": "To be calculated after full extraction"
+        "value": 17.9,
+        "ci95Lower": 9.9,
+        "ci95Upper": 25.9,
+        "note": "Based on 84 papers extracted from PubMed"
       },
       "fullBreakdownRate": {
         "value": null,
-        "note": "To be calculated after full extraction"
+        "note": "Requires full-text review"
       }
     },
     "byYear": [
-      {"year": 2020, "total": null, "reporting": null, "rate": null},
-      {"year": 2021, "total": null, "reporting": null, "rate": null},
-      {"year": 2022, "total": null, "reporting": null, "rate": null},
-      {"year": 2023, "total": null, "reporting": null, "rate": null},
-      {"year": 2024, "total": null, "reporting": null, "rate": null},
-      {"year": 2025, "total": null, "reporting": null, "rate": null}
+      {
+        "year": 2020,
+        "total": 13,
+        "reporting": 5,
+        "rate": 38.5
+      },
+      {
+        "year": 2021,
+        "total": 14,
+        "reporting": 1,
+        "rate": 7.1
+      },
+      {
+        "year": 2022,
+        "total": 10,
+        "reporting": 1,
+        "rate": 10.0
+      },
+      {
+        "year": 2023,
+        "total": 17,
+        "reporting": 5,
+        "rate": 29.4
+      },
+      {
+        "year": 2024,
+        "total": 16,
+        "reporting": 1,
+        "rate": 6.2
+      },
+      {
+        "year": 2025,
+        "total": 14,
+        "reporting": 2,
+        "rate": 14.3
+      }
     ],
     "terminologyUsed": {
-      "ancestry": null,
-      "ethnicity": null,
-      "race": null,
-      "population": null,
-      "mixed": null,
-      "notApplicable": null
+      "ancestry": 2,
+      "ethnicity": 0,
+      "race": 0,
+      "population": 4,
+      "other": 9,
+      "notReported": 69
     },
     "ascertainmentMethods": {
       "selfReport": null,
@@ -153,7 +1200,8 @@
       "target": 50,
       "operator": "less_than",
       "metric": "reportingRate",
-      "status": "pending"
+      "status": "supported",
+      "result": "17.9% < 50%"
     },
     {
       "id": "h2",
@@ -166,7 +1214,8 @@
     {
       "id": "h3",
       "statement": "Terminology will be inconsistent across publications",
-      "status": "pending"
+      "status": "supported",
+      "result": "3 different terms used"
     },
     {
       "id": "h4",

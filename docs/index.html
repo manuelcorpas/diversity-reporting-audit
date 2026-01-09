@@ -27,7 +27,7 @@
             <div class="scope-icon">&#128200;</div>
             <div class="scope-content">
                 <strong>Key Finding</strong>
-                <p>Only <strong>25.4%</strong> of UK cancer genomics publications mention participant ancestry or ethnicity. This systematic analysis of <strong>4,794 papers</strong> (2020-2025) reveals significant gaps in diversity reporting.</p>
+                <p>Only <strong>9.9%</strong> of UK cancer genomics publications explicitly report participant ancestry, ethnicity, or race. This systematic analysis of <strong>4,794 papers</strong> (2020-2025) reveals significant gaps in diversity reporting.</p>
             </div>
             <a href="https://github.com/manuelcorpas/diversity-reporting-audit" target="_blank" class="protocol-link">View Methods</a>
         </section>
@@ -254,33 +254,36 @@
             </div>
         </section>
 
-        <!-- Validation -->
+        <!-- Methodology Note -->
         <section class="validation-section">
-            <h2>Validation</h2>
-            <p class="section-description">Term reliability classification for manual verification</p>
+            <h2>Methodology</h2>
+            <p class="section-description">Strict criteria: only explicit ancestry, ethnicity, or race terms</p>
             <div class="methodology-grid">
                 <div class="method-card" style="border-left: 4px solid #10b981;">
-                    <h3>HIGH Reliability</h3>
-                    <p>ancestry, ethnicity, race</p>
-                    <p><strong>373 papers</strong></p>
+                    <h3>Ancestry</h3>
+                    <p>ancestry, ancestral, genetic ancestry, European/African/Asian ancestry</p>
+                    <p><strong>248 papers</strong></p>
                 </div>
-                <div class="method-card" style="border-left: 4px solid #f59e0b;">
-                    <h3>MEDIUM Reliability</h3>
-                    <p>population (ambiguous)</p>
-                    <p><strong>435 papers</strong></p>
+                <div class="method-card" style="border-left: 4px solid #3b82f6;">
+                    <h3>Race</h3>
+                    <p>race, racial, Black, White, African American</p>
+                    <p><strong>200 papers</strong></p>
+                </div>
+                <div class="method-card" style="border-left: 4px solid #8b5cf6;">
+                    <h3>Ethnicity</h3>
+                    <p>ethnicity, ethnic group, ethnic background</p>
+                    <p><strong>26 papers</strong></p>
                 </div>
                 <div class="method-card" style="border-left: 4px solid #ef4444;">
-                    <h3>LOW Reliability</h3>
-                    <p>diversity, demographic, etc.</p>
-                    <p><strong>311 papers</strong></p>
-                </div>
-                <div class="method-card">
-                    <h3>Estimate Range</h3>
-                    <p>Conservative: 19.0%</p>
-                    <p>Liberal: 25.4%</p>
+                    <h3>Not Reported</h3>
+                    <p>No diversity terms in abstract</p>
+                    <p><strong>4,320 papers (90.1%)</strong></p>
                 </div>
             </div>
-            <a href="data/validation_sample.csv" download class="export-btn" style="margin-top: 1rem;">Download Validation CSV (1,220 papers)</a>
+            <p style="margin-top: 1rem; color: var(--text-secondary);">
+                <strong>Excluded:</strong> Ambiguous terms like "population" (could mean study population), "diversity" (often molecular/tumor diversity), "demographic" (age/sex distribution).
+            </p>
+            <a href="data/validation_sample.csv" download class="export-btn" style="margin-top: 1rem;">Download Full Dataset CSV</a>
         </section>
 
         <!-- Sources -->
